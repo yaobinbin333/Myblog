@@ -1,0 +1,74 @@
+
+            *{
+				padding: 0;
+				margin: 0;
+			}
+			#frame{
+				background:#ffffff url(/static/blog/img/back.jpg) no-repeat right top;
+			}
+			#nav1{
+				margin-left: 56%;
+			}
+			.nav-content{
+				display:inline-block;
+				width: 150px;
+				height:50px;
+				/* 导航的字体背景颜色设置 */
+				/*background-color:#ffffff;*/
+				font-size: 25px;/*设置字体大小*/
+				text-align: center;/*设置字体对齐方式*/
+				line-height: 50px;/*等于li的高度，可以让字体垂直居中*/
+				/* font-weight:bold */
+			}
+			.nav-content a{
+
+				color: gray;
+				text-decoration: none; /*去线*/
+			}
+			#nav{
+				width: 100%;
+			}
+			#box{
+				width: 60rem;
+				height: 100%;
+				/* background-color: aliceblue; */
+				/* 这个表示左右自动居中 */
+				background-repeat:no-repeat;
+				margin: 0 auto;
+			}
+
+			#content-center{
+				position: center;
+				height: 60rem;
+			}
+			#content-article{
+				display: inline-block;
+				width: 50rem;
+				background-color:white;
+				opacity: 0.5;
+
+			}
+			#content-article-right{
+				display: inline-block;
+				width: 6rem;
+				/* margin-top: 0; */
+				float: right;
+				/* background-color: white; */
+			}
+
+
+			#content-article-right ul li{
+				margin: 20px;
+				/* 下面这个是去掉那个黑色原点 */
+				list-style-type: none;
+			}
+			#content-article-right ul>li{
+				margin-top: 0;
+			}
+			#pagefood{
+				height: 43px;
+				background-color: grey;
+			}
+			#first{
+				padding-left: 20rem;
+			}
