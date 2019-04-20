@@ -13,7 +13,7 @@
 		<div id="nav">
 			<ul id="nav1">
 			<li class="nav-content"><a href="/index/">首页</a></li>
-			<li class="nav-content"><a href="#">归档</a></li>
+			<li class="nav-content"><a href="/blogs/">归档</a></li>
 			<li class="nav-content"><a href="#">小记</a></li>
 			</ul>
 		</div>
@@ -38,8 +38,13 @@
 			<!-- box结束部分 -->
                 {% block content %}
                 {% endblock %}
+
 		</div>
-		<div id="pagefood">
+        <aside class="col-md-4">
+                {% block toc %}
+                {% endblock toc %}
+                </aside>
+		<div id="site-footer">
 
 		</div>
 

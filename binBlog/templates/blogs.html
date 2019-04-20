@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="content">
+				<div id="content-center">
+                    {% for blog in blog_list %}
+                    <a href="/post/{{ blog.pk }}" class="title" style="display: block">{{ blog.title }}</a>
+                    {% endfor %}
+					<div id="content-article-right">
+						<ul>
+							<li>类别1</li>
+							<li>类别2</li>
+							<li>类别3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+{% endblock %}
